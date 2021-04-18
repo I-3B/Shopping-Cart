@@ -44,6 +44,7 @@ const Card = (props) => {
         <div className="card">
             <div className="container">
                 <img
+                    style={imageOpacity}
                     src={'/Shopping-Cart/images/' + props.img + '.jpg'}
                     alt={props.img}
                     onClick={() => {

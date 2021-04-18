@@ -5,7 +5,7 @@ const Homepage = () => {
         <div id="home-page">
             <h1>Kingdom of Games</h1>
             <div id="shop-link-container">
-                <Link to="/Shop">Go to the shop&#8594; </Link>
+                <Link to="/Shopping-Cart/Shop">Go to the shop&#8594; </Link>
             </div>
             <div id="info">
                 <p>-Get your gaming components from the best online shop!</p>
