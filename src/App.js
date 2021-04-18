@@ -37,16 +37,16 @@ const App = () => {
             <div id="app">
                 <Nav items={itemsCount} />
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/Shopping-Cart/">
                         <Homepage />
                     </Route>
-                    <Route exact path="/Shop">
+                    <Route exact path="/Shopping-Cart/Shop">
                         <ShopPage
                             purchases={purchases}
                             purchasesParent={purchasesCallback}
                         />
                     </Route>
-                    <Route exact path="/Purchases">
+                    <Route exact path="/Shopping-Cart/Purchases">
                         <ShoppingCart
                             purchases={purchases}
                             purchasesParent={purchasesCallback}

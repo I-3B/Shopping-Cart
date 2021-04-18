@@ -2,7 +2,7 @@
     "name": "test-react",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://ishuamali.github.io/react-gh-pages",
+    "homepage": "https://i-3b.github.io/Shopping-Cart/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.10",
         "@testing-library/react": "^11.2.6",
