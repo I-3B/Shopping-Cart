@@ -44,11 +44,11 @@ const Card = (props) => {
         <div className="card">
             <div className="container">
                 <img
-                    src={'/images/' + props.img + '.jpg'}
+                    src={'/Shopping-Cart/images/' + props.img + '.jpg'}
                     alt={props.img}
                     onClick={() => {
                         return window.open(
-                            '/images/' + props.img + '.jpg',
+                            '/Shopping-Cart/images/' + props.img + '.jpg',
                             '_blank'
                         );
                     }}
@@ -62,7 +62,7 @@ const Card = (props) => {
                 <img
                     style={loadingDisplay}
                     className="loading"
-                    src={'/images/loading.svg'}
+                    src={'/Shopping-Cart/images/loading.svg'}
                     alt="loading"
                 ></img>
                 <div className="buy-input" style={buyInputStyle}>

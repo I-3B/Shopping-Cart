@@ -37,22 +37,16 @@ const App = () => {
             <div id="app">
                 <Nav items={itemsCount} />
                 <Switch>
-                    <Route exact path="https://i-3b.github.io/Shopping-Cart/">
+                    <Route exact path="/Shopping-Cart/">
                         <Homepage />
                     </Route>
-                    <Route
-                        exact
-                        path="https://i-3b.github.io/Shopping-Cart/Shop"
-                    >
+                    <Route exact path="/Shopping-Cart/Shop">
                         <ShopPage
                             purchases={purchases}
                             purchasesParent={purchasesCallback}
                         />
                     </Route>
-                    <Route
-                        exact
-                        path="https://i-3b.github.io/Shopping-Cart/Purchases"
-                    >
+                    <Route exact path="/Shopping-Cart/Purchases">
                         <ShoppingCart
                             purchases={purchases}
                             purchasesParent={purchasesCallback}
