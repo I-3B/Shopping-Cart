@@ -1,0 +1,37 @@
+#shopping-cart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    transition: 0.5s;
+}
+#shopping-cart div {
+    box-shadow: 6px 6px 15px black;
+}
+.check-out {
+    border-radius: 20px;
+    width: 75%;
+    height: fit-content;
+    font-size: 2em;
+    padding: 1em;
+    color: aliceblue;
+    background-color: rgb(34, 34, 34);
+}
+.check-out div {
+    width: 50%;
+    margin: 0.3em auto;
+    padding: 0.1em;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.35s;
+    user-select: none;
+    background-color: rgb(39, 39, 39);
+    color: ivory;
+}
+.check-out div:hover {
+    background-color: ivory;
+    color: rgb(39, 39, 39);
+}

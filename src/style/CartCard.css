@@ -1,0 +1,30 @@
+.cart-card {
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+    width: 20%;
+    min-height: 17em;
+    margin: 1em;
+    padding: 1em;
+}
+.cart-card h3 {
+    height: 30%;
+}
+.cart-card p:last-child {
+    padding: 0.3em;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    width: 40%;
+    margin: 0em auto;
+    color: rgb(34, 34, 34) ivory;
+    transition: 0.4s;
+}
+
+.cart-card p:last-child:hover {
+    background-color: ivory;
+    width: 40%;
+    margin: 0em auto;
+    color: rgb(26, 26, 26);
+}
