@@ -6,7 +6,7 @@ const Card = (props) => {
         display: 'none',
     });
     const [loadingDisplay, setLoadingDisplay] = useState({ display: 'block' });
-    const [imageOpacity, setImageOpacity] = useState({ display: '0' });
+    const [imageOpacity, setImageOpacity] = useState({ opacity: '0' });
     const [currentItemsCount, setCurrentItemsCount] = useState(1);
 
     const buyClicked = (event) => {
