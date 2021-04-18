@@ -17,7 +17,6 @@ const ShoppingCart = (props) => {
     useEffect(() => {
         setProducts((products) => []);
         setTotal((total) => 0);
-        console.log(props.purchases);
         props.purchases.forEach(([price, amount], name) => {
             setProducts((products) => [
                 ...products,
