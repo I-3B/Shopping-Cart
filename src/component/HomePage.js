@@ -3,7 +3,7 @@ import '../style/HomePage.css';
 const Homepage = () => {
     return (
         <div id="home-page">
-            <h1>Kingdom of Games</h1>
+            <h1>Kingdom of Gamers</h1>
             <div id="shop-link-container">
                 <Link to="/Shopping-Cart/Shop">Go to the shop&#8594; </Link>
             </div>
