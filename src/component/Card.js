@@ -52,6 +52,7 @@ const Card = (props) => {
                             '_blank'
                         );
                     }}
+                    style={imageOpacity}
                     onLoad={() => {
                         setLoadingDisplay({ display: 'none' });
                         setImageOpacity({ opacity: '1' });
