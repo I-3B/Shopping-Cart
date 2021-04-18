@@ -8,7 +8,7 @@
 }
 #shop-link-container {
     width: fit-content;
-    margin: auto;
+    margin: 2em auto;
 }
 #shop-link-container a {
     border-radius: 10px;
@@ -19,7 +19,7 @@
     margin: 2em auto;
     width: fit-content;
     color: aliceblue;
-    background-color: rgb(26, 26, 26);
+    background-color: rgba(26, 26, 26, 0.774);
 }
 #info p {
     margin: 2em auto;
